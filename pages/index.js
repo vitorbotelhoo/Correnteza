@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Encante com a sua marca. Faça fasdasdasdasluir.</h1>
+        <h1>Transformamos agências e startups em projetos encantadores com entregas encantadoras..</h1>
       </main>
 
       <style jsx>{`
