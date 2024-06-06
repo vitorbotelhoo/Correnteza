@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 style="width: 100%; max-width: 800px; padding:24px; font-size: 32px;">Transformamos agências e startups em projetos encantadores com entregas encantadoras..</h1>
+        <h1>Transformamos agências e startups em projetos encantadores com entregas encantadoras..</h1>
       </main>
 
       <style jsx>{`
