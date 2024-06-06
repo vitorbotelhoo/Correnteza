@@ -15,7 +15,7 @@ export default function Home() {
 
       <style jsx>{`
         main {
-          padding: 5rem 0;
+          padding: 24px;
           flex: 1;
           display: flex;
           flex-direction: column;
