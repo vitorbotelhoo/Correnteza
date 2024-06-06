@@ -60,6 +60,8 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
+          background-color: #08152C;
+          color: #B2D9FC;
           padding: 0;
           margin: 0;
           font-family: "Gabarito", sans-serif;
