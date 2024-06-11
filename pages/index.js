@@ -27,11 +27,11 @@ export default function Home() {
         h1, h2, h3, p {
           margin: 0px;
       }
+          
         @media (max-width: 600px) {
- h1 { font-size: 32px;}
-  }
-}
-
+          h1 { font-size: 32px;}
+          }
+        }
 
         section {
           padding: 24px;
@@ -81,31 +81,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
         }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-            background: #fafafa;
-            border-radius: 5px;
-            padding: 0.75rem;
-            font-size: 1.1rem;
-            font-family: Gabarito;
-        }
+      
       `}</style>
 
       <style jsx global>{`
@@ -114,6 +90,7 @@ export default function Home() {
           padding: 0;
           margin: 0;
           font-family: "Gabarito", sans-serif;
+          width: 100%;
         }
         * {
           box-sizing: border-box;
