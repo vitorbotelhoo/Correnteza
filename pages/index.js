@@ -27,6 +27,11 @@ export default function Home() {
         h1, h2, h3, p {
           margin: 0px;
       }
+        @media (max-width: 600px) {
+ h1 { font-size: 32px;}
+  }
+}
+
 
         section {
           padding: 24px;
