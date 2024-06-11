@@ -9,9 +9,6 @@ export default function Home() {
         <link rel="icon" href="/Favicon.png" />
       </Head>
 
-      <header>
-        
-      </header>
       <main>
         <section className={styles.hero}>
           <div className={styles.centeredcontainer}>
@@ -19,7 +16,6 @@ export default function Home() {
             <h1 className={styles.titulohero}>Encantamos a sua empresa com a direção certa.</h1>
           </div>
         </section>
-       
       </main>
 
       <style jsx>{`
