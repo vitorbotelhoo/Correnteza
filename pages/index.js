@@ -19,38 +19,7 @@ export default function Home() {
             <h1>Encantamos a sua empresa com a direção certa.</h1>
           </div>
         </section>
-        <section className={styles.portfoliosec}>
-          <div className={styles.centeredcontainer}>
-            <h2>Projetos em evidência</h2>
-            <div className={styles.cardsContainer}>
-
-              <div className={styles.portfoliocard_hof}>
-                  <h3>Teste</h3>
-                  <p>Desc</p>
-                  <button>Teste</button>
-              </div>
-
-              <div className={styles.portfoliocard_hof}>
-                  <h3>Teste</h3>
-                  <p>Desc</p>
-                  <button>Teste</button>
-              </div>
-
-              <div className={styles.portfoliocard_hof}>
-                  <h3>Teste</h3>
-                  <p>Desc</p>
-                  <button>Teste</button>
-              </div>
-              
-            </div>
-            <div className={styles.rightalign}>
-              <button className={styles.customcursor_fogo}>Veja mais projetos aqui <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10 8.26568L8.58856 8.27491L8.58856 2.4262L1.01476 10L0 8.98524L7.5738 1.41144L1.73432 1.42066V3.44089e-07L10 0V8.26568Z" fill="#B2D9FC"/>
-</svg>
-</button>
-            </div>
-          </div>
-        </section>
+       
       </main>
 
       <style jsx>{`
