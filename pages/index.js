@@ -90,8 +90,6 @@ export default function Home() {
           padding: 0;
           margin: 0;
           font-family: "Gabarito", sans-serif;
-          width: 100%;
-          display: flex;
         }
         * {
           box-sizing: border-box;
