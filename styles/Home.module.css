@@ -1,10 +1,11 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #08152C;
 }
 
 .title a {
@@ -82,6 +83,79 @@
 
 .logo {
   height: 1em;
+}
+
+.hero {
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.centeredcontainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;    
+  flex-direction: column;
+  width: 100%;
+  gap:12px
+}
+
+.logoonhero {
+  width: 96px;
+  aspect-ratio: 1;
+}
+
+.portfoliosec {
+  background-color: #0F2752;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 600px;    
+}
+
+.rightalign {
+  display: flex;
+  justify-content: end;
+}
+
+.customcursor_fogo {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔥</text></svg>")
+      16 0, auto;
+}
+
+.portfoliocard_hof {
+  display: flex;
+height: 350px;
+width: 100%;
+padding: 16px 12px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 12px;
+flex: 1 0 0;
+border-radius: 12px;
+border: 2px solid var(--cores-neutros-neutral-30, #A0ACB5);
+background: #08152C;
+background-image: url("/portfolio_HOF.png") 50%;
+background-color: #08152C;
+overflow: hidden;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.imagefundo {
+  width: 110%;
+  opacity: 10%;
 }
 
 @media (max-width: 600px) {
