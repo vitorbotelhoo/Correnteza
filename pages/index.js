@@ -16,7 +16,7 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.centeredcontainer}>
             <img className ={styles.logoonhero} src="/Img Logo.png"></img>
-            <h1>Encantamos a sua empresa com a direção certa.</h1>
+            <h1 className={styles.titulohero}>Encantamos a sua empresa com a direção certa.</h1>
           </div>
         </section>
        
