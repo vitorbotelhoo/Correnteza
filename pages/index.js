@@ -91,6 +91,7 @@ export default function Home() {
           margin: 0;
           font-family: "Gabarito", sans-serif;
           width: 100%;
+          display: flex;
         }
         * {
           box-sizing: border-box;
