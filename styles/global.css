@@ -5,7 +5,7 @@ body {
   font-family: "Gabarito", sans-serif;
   overflow-x: hidden;
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100%;
 }
 
