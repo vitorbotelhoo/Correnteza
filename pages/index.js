@@ -8,16 +8,6 @@ export default function Home() {
         <title>Correnteza Estúdio</title>
         <link rel="icon" href="/Favicon.png" />
       </Head>
-
-      <main>
-        <section className={styles.hero}>
-          <div className={styles.centeredcontainer}>
-            <img className ={styles.logoonhero} src="/Img Logo.png"></img>
-            <h1 className={styles.titulohero}>Encantamos a sua empresa com a direção certa.</h1>
-          </div>
-        </section>
-      </main>
-
       <main>
         <header>
             <img>Logo</img>
