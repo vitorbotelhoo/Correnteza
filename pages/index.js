@@ -8,15 +8,15 @@ export default function Home() {
         <title>Correnteza Estúdio</title>
         <link rel="icon" href="/Favicon.png" />
       </Head>
-      <main>
-        <header>
+      <header>
             <img>Logo</img>
             <nav>
                 <menu>Quem somos</menu>
                 <menu>Projetos</menu>
                 <menu>Instagram</menu>
             </nav>
-        </header>
+      </header>
+      <main>
         <section>
             <img>Logo Maior</img>
             <h1>Encantamos a sua empresa com a direção certa.</h1>
@@ -109,7 +109,8 @@ export default function Home() {
                 </li>
             </ul>
         </section>
-        <footer>
+    </main>
+    <footer>
             <img>Logo Horizontal Completa</img>
             <nav>
                 <menu>Quem somos?</menu>
@@ -120,7 +121,6 @@ export default function Home() {
                 <menu>Instagram</menu>
             </nav>
         </footer>
-    </main>
 
       <style jsx>{`
 
